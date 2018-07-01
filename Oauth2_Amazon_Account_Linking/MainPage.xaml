@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="Oauth2_Amazon_Account_Linking.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Oauth2_Amazon_Account_Linking"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button Content="Login" Height="231" Margin="319,207,0,282" Width="257" Click="Button_ClickAsync"></Button>
+        <Button Content="Show user data" Height="230" Margin="690,205,0,285" Width="253" Click="Button_ShowAsync"></Button>
+
+    </Grid>
+</Page>
